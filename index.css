@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* overflow-x: hidden; */
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(23, 17, 55);
+    color: white;
+    height: 4.5rem;
+    padding-top: 1rem;
+}
+.navoptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.welp{
+    font-size: small;
+    font-style: italic;
+}
+li{
+    margin: 1rem 0.9rem;
+    list-style: none;
+}
+a{
+    color: white;
+
+}
+span{
+    color: rgb(255, 208, 0);
+}
+.cons{
+    background-image: url(Images/banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+}
+.big{
+    font-size: 47px;
+    letter-spacing: 1.5px;
+    margin-top: 1rem;
+}
+.cent{
+    width: 57%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.cert{
+    text-transform: capitalize;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.lorem1{
+    /* width: 70%; */
+    font-size: 14px;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.button1{
+    margin-top: 3.5rem;
+    background: rgb(0, 0, 0, .7);
+    color: rgb(255, 153, 0);
+    border: 1px solid rgb(255, 153, 0);
+    padding: 6px;
+}
+.welc{
+    display: flex;
+    justify-content: space-evenly;
+    height: 20rem;
+}
+.flex1{
+    width: 30%;
+    margin-top: 3rem;
+    
+}
+h3{
+    color: rgb(255, 174, 0);
+    font-size: 26px;
+    letter-spacing: 1px;
+
+}
+.lorem2{
+    font-weight: bold;
+    margin-top: 5px;
+}
+.lorem3{
+    font-size: 14px;
+    margin: 1.5rem 0;
+}
+.show{
+    border: none;
+    border-radius: 4px;
+    background: rgb(255, 174, 0);
+    color: white;
+    padding: 7px;
+    font-size: 12px;
+}
+.why{
+    background-image: url(Images/bg4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 480px;
+    width: 100%;
+    position: relative;
+    /* text-align: center; */
+}
+.div-why{
+    width: 75%;
+    text-align: center;
+    padding: 4rem 10rem;
+    color: white;
+}
+h5{
+    color: rgb(255, 174, 0);
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+}
+.boxes{
+    width: 100%;
+    display: flex;
+    
+}
+.lorem4{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.box{
+    background-color: rgba(14, 13, 13, 0.5);
+    /* background-color: transparent; */
+    margin-left: 3.5rem;
+    height: 200px;
+    border-radius: 5px;
+    width: 200px;
+}
+.feat-img{
+    position: absolute;
+    top: 200px;
+    margin-left: 63px;
+}
+.lorem5{
+    font-size: 14px;
+}
+.services{
+    height: 70vh;
+    text-align: center;
+}
+h4{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.flexserv{
+    display: flex;
+    /* width: 80%; */
+    justify-content: space-evenly;
+}
+.serv{
+    width: 20%;
+    text-align: left;
+}
+.lorem6{
+    font-size: 14px;
+    text-align: left;
+    margin: 1.5rem 0;
+}
+.ser1-img{
+    background-image: url(Images/card1.jpg);
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+.ser2-img{
+    background-image: url(Images/card2.jpg);
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+.ser3-img{
+    background-image: url(Images/card3.jpg);
+    height: 200px;
+    text-align: center;
+    color: rgb(255, 255, 255, .7);
+}
+.text-serv{
+    background: rgb(0, 0, 0, .5);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.ashow{
+    color: white;
+}
+.made{
+    background-image: url(Images/bg2.jpg);
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+.flex2{
+    display: flex;
+    justify-content: center;
+}
+.gridd{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    /* text-align: center; */
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.gridimg1{
+    grid-row: span 2;
+}
+.love{
+    padding-top: 3rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 22px;
+}
